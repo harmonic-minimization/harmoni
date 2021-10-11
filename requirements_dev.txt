@@ -1,0 +1,6 @@
+pytest>=6.2
+pytest-cov>=2.12
+check-manifest>=0.40
+flake8>=3.9.2
+mypy>=0.910
+tox>=3.24
