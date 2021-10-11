@@ -11,7 +11,7 @@ setup(
     author_email='minajamshidi91@gmail.com',
     url='https://github.com/harmonic-minimization/harmoni',
     name='harmoni',
-    version='0.0.3',
+    version='0.0.5',
     description='harmonic minimization method for eliminating harmonic-driven connectivity with MEEG',
     long_description=long_description,
     long_description_content_type="text/markdown",
