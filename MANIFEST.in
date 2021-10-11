@@ -1,0 +1,7 @@
+include *.png
+include *.txt
+include ./tests
+include tox.ini
+recursive-include harmoni *.py
+recursive-include harmoni *.typed
+recursive-include tests *.py
