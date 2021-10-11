@@ -5,6 +5,7 @@ A tool for removing harmonic for MEEG connectivity
 ![Python](https://img.shields.io/badge/Python-3.6-green)
 ![linux](https://github.com/harmonic-minimization/harmoni/actions/workflows/linux.yml/badge.svg)
 ![macos](https://github.com/harmonic-minimization/harmoni/actions/workflows/macos.yml/badge.svg)
+![windows](https://github.com/harmonic-minimization/harmoni/actions/workflows/windows.yml/badge.svg)
 
 <p align="center">
   <img src="harmoni_logo.png"/>
