@@ -17,7 +17,7 @@ from scipy.signal import filtfilt
 import numpy as np
 import pytest
 from harmoni.extratools import compute_plv
-from harmoni import harmonic_removal, harmonic_removal_simple
+from harmoni.harmonitools import harmonic_removal, harmonic_removal_simple
 
 
 # -----------------------------------------------------
@@ -88,9 +88,8 @@ def test_harmonic_removal_mp(generate2_nonsinsig_fortest, general_setting):
     coh12_a = compute_plv(sig11, sig22_res, 1, n, plv_type='abs', coh=True)
 
     assert(coh11_a < coh11_b)  # criterion 1
-    assert(coh11_a < coh22_b)  # criterion 1
     assert(coh22_a < coh22_b)  # criterion 3
-    assert(np.abs(coh12_b - coh12_a) < 0.05)  # criterion 2
+    assert (np.abs(coh12_b - coh12_a) < 0.05)
 
 
 def test_harmonic_removal_seq(generate2_nonsinsig_fortest, general_setting):
@@ -119,7 +118,6 @@ def test_harmonic_removal_seq(generate2_nonsinsig_fortest, general_setting):
     coh12_a = compute_plv(sig11, sig22_res, 1, n, plv_type='abs', coh=True)
 
     assert(coh11_a < coh11_b)
-    assert(coh11_a < coh22_b)
     assert(coh22_a < coh22_b)
     assert(np.abs(coh12_b - coh12_a) < 0.05)
 
