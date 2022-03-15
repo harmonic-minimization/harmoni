@@ -20,7 +20,7 @@ HARMONI is an open-source Python package for eliminating/suppressing the spuriou
 
 Harmoni: a Novel Method for Eliminating Spurious Neuronal Interactions due to the Harmonic Components in Neuronal Data
 Mina Jamshidi Idaji, Juanli Zhang, Tilman Stephani, Guido Nolte, Klaus-Robert Mueller, Arno Villringer, Vadim V. Nikulin
-https://doi.org/10.1101/2021.10.06.463319
+https://doi.org/10.1016/j.neuroimage.2022.119053
 
 
 ## Installing
